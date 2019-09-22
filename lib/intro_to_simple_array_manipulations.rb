@@ -8,4 +8,8 @@ def superhero = ["auqaman", "batman", "flash"]
   superhero
   #=> ["auqaman", "batman"]
 end 
-def superhero = 
+def superhero = ["auqaman", "batman", "flash"]
+  superhero.push("wonderwoman")
+  p superhero
+  #=> ["auqaman", "batman", "flash", "wonderwoman"]
+end 
