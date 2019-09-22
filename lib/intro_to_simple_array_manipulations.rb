@@ -26,3 +26,12 @@ def superhero = ["auqaman", "batman", "flash", "wonderwoman"]
 end 
 
 def superhero = ["auqaman", "batman", "flash", "wonderwoman"]
+  superhero.shift("auqaman")
+  #=> ["batman", ",flash", "wonderwoman"]
+  superhero.unshift("auqaman")
+  #=> ["auqaman", "batman", "flash", "wonderwoman"]
+end 
+
+
+  
+  
