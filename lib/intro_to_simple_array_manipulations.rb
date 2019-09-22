@@ -37,13 +37,12 @@ def superhero = ["auqaman", "batman", "flash", "wonderwoman",[superhero2 =[]]
   #=> superhero2("superman")
 end
 
-def superhero = ["auqaman", "batman", "flash", "wonderwoman", ]
-  
-  superhero2.insert("wonderwoman")
+def superhero = ["auqaman", "batman", "flash", "wonderwoman",superhero2 = ["superman"] ]
+   superhero2.insert("wonderwoman")
   #=> superhero2("superman", , , , "wonderwoman")
 end
 
-def superhero = ["auqaman", "batman", "flash", "wonderwoman"]
+def superhero = ["auqaman", "batman", "flash", "wonderwoman", ]
   superhero2 = ["superman", , , "wonderwoman"]
   all_super_hero.uniq 
 end
