@@ -19,4 +19,9 @@ def superhero = ["auqaman", "batman", "flash"]
   #=> ["wonderwoman", "auqaman", "batman", "flash"]
 end 
 
-def superhero = 
+def superhero = ["auqaman", "batman", "flash", "wonderwoman"]
+  superhero.pop
+  #=> "flash", "wonderwoman"
+  #=> ["auqaman", "batman"]
+end 
+
