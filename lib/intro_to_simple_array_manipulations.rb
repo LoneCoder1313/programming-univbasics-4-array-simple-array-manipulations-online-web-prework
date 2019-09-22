@@ -46,7 +46,7 @@ def superhero = ["auqaman", "batman", "flash", "wonderwoman", superhero2 = ["sup
   all_super_hero.uniq 
 end
 
-def superhero 
+def superhero = 
 
 
   
