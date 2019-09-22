@@ -13,4 +13,7 @@ def superhero = ["auqaman", "batman", "flash"]
   p superhero
   #=> ["auqaman", "batman", "flash", "wonderwoman"]
 end 
-def superhero = 
+def superhero = ["auqaman", "batman", "flash"]
+  superhero.unshift("wonderwoman")
+  p superhero
+  #=> ["wonderwoman", "auqaman", "batman", "flash"]
