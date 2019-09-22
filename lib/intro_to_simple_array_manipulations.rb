@@ -50,7 +50,10 @@ def superhero =  ["auqaman", "batman", "flash", "wonderwoman", superhero2 = ["su
   all_super_hero.flatten
 end
 
-def superhero = 
+def superhero =  ["auqaman", "batman", "flash", "wonderwoman", superhero2 = ["superman"]]
+  all_super_hero.delete
+end
+
   
 
 
