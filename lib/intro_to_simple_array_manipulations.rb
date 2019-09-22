@@ -42,11 +42,16 @@ def superhero = ["auqaman", "batman", "flash", "wonderwoman",superhero2 = ["supe
   #=> superhero2("superman", , , , "wonderwoman")
 end
 
-def superhero = ["auqaman", "batman", "flash", "wonderwoman", superhero2 = ["superman"]]
+def superhero = ["auqaman", "batman", "flash", "wonderwoman", superhero2 = ["superman", , , "wonderwoman"]]
   all_super_hero.uniq 
 end
 
+def superhero =  ["auqaman", "batman", "flash", "wonderwoman", superhero2 = ["superman"]]
+  all_super_hero.flatten
+end
+
 def superhero = 
+  
 
 
   
