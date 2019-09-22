@@ -32,8 +32,7 @@ def superhero = ["auqaman", "batman", "flash", "wonderwoman"]
   #=> ["auqaman", "batman", "flash", "wonderwoman"]
 end 
 
-def superhero = ["auqaman", "batman", "flash", "wonderwoman"]
-  s
+def superhero = ["auqaman", "batman", "flash", "wonderwoman",[superhero2 =[]]
   superhero2.concat("superman")
   #=> superhero2("superman")
 end
