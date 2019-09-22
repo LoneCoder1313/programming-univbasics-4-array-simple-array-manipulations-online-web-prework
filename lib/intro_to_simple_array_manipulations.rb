@@ -37,8 +37,8 @@ def superhero = ["auqaman", "batman", "flash", "wonderwoman",[superhero2 =[]]
   #=> superhero2("superman")
 end
 
-def superhero = ["auqaman", "batman", "flash", "wonderwoman"]
-  superhero2 = ["superman"]
+def superhero = ["auqaman", "batman", "flash", "wonderwoman", ]
+  
   superhero2.insert("wonderwoman")
   #=> superhero2("superman", , , , "wonderwoman")
 end
